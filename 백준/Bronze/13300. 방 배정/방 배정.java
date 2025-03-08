@@ -33,10 +33,10 @@ public class Main {
             if (girls[i] == 0) {
                 continue;
             } else {
-                if (girls[i] % 2 == 0) {
-                    count += girls[i] / 2;
+                if (girls[i] % K == 0) {
+                    count += girls[i] / K;
                 }else{
-                    count += girls[i] / 2 + 1;
+                    count += girls[i] / K + 1;
                 }
             }
         }
@@ -46,10 +46,10 @@ public class Main {
             if (boys[i] == 0) {
                 continue;
             } else {
-                if (boys[i] % 2 == 0) {
-                    count += boys[i] / 2;
+                if (boys[i] % K == 0) {
+                    count += boys[i] / K;
                 }else{
-                    count += boys[i] / 2 + 1;
+                    count += boys[i] / K + 1;
                 }
             }
         }
